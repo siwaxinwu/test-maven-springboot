@@ -1,0 +1,43 @@
+server:
+  port: 8081
+  tomcat:
+    uri-encoding: UTF-8
+person:
+  map:
+    key: 1key
+  list: [1, 2, 3]
+  email: siwaxinwu@sina.com
+  name: 'zhangsan \n lisi'
+name: jack
+spring:
+  http:
+    encoding:
+      force-request: true
+      force-response: true
+
+
+#spring:
+#  profiles: prod
+##    active: prod
+#
+#---
+#
+#server:
+#  port: 8082
+#spring:
+#  profiles: test
+
+#---
+#server:
+#  port: 8083
+#spring:
+#  profiles: dev
+#ent:
+#  aliasMap:
+#    entA: entAStrategy
+#    entB: entBStrategy
+#name: 'zhangsan \n lisi'
+time:
+  log:
+    enable:
+      true
